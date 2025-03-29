@@ -1,0 +1,4 @@
+add_subdirectory(Commands)
+add_subdirectory(CommandParser)
+add_subdirectory(Game)
+add_subdirectory(CommandManager)

@@ -1,0 +1,19 @@
+add_library(commands
+AbstractCommand.h
+Ping.h
+        CreateCommand/Create.cpp
+        CreateCommand/Create.h
+        SetCommand/Set.cpp
+        SetCommand/Set.h
+        ShotCommand/Shot.cpp
+        ShotCommand/Shot.h
+        GetCommand/Get.cpp
+        GetCommand/Get.h
+        FileCommands/Dump.h
+        FileCommands/Dump.cpp
+        FileCommands/Load.h
+        FileCommands/Load.cpp
+        Finished.h
+        Lose.h
+        Win.h
+)
